@@ -1,0 +1,27 @@
+.referral {
+    &__generateCard {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+
+        input {
+            width: 250px;
+            padding: 9px 20px;
+            outline: none;
+            border: 1px solid #e8e8e8;
+        }
+
+        button {
+            padding: 10px 12px;
+            background-color: #00a6f7;
+            color: #fff;
+            outline: none;
+            border: none;
+            border-radius: 0px 5px 5px 0;
+            font-size: 14px;
+            margin-left: -2px;
+            ;
+        }
+    }
+}

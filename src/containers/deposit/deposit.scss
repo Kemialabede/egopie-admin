@@ -1,0 +1,235 @@
+@import '../../styles/responsive.scss';
+
+.flex-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.deposit_actions_container {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+
+    @include sm {
+        flex-direction: column;
+    }
+}
+
+.payment_method__container {
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    border-radius: 5px;
+    width: auto;
+    background-color: white;
+
+    &__heading {
+        font-size: 18px;
+        color: #6c757d;
+        font-weight: 500;
+        padding: 10px 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, .125);
+    }
+
+    &__flex {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 20px 20px 20px;
+        // gap: 5px;
+
+        div {
+            flex: 1 1 calc(25% - 10px);
+            margin: 5px;
+            box-sizing: border-box;
+
+            @include sm {
+                flex: 1 1 calc(50% - 10px);
+            }
+
+            @include lg {
+                flex: 1 1 calc(50% - 10px);
+            }
+
+            p {
+                color: #5b6e88;
+                font-size: 14px;
+
+                &:last-child {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+.deposit-info__container {
+    margin-top: 20px;
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    border-radius: 5px;
+    width: auto;
+    background-color: white;
+
+    &__heading {
+        font-size: 18px;
+        color: #6c757d;
+        font-weight: 500;
+        padding: 10px 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, .125);
+    }
+
+    &__paragraph {
+        padding: 20px;
+
+        h6 {
+            font-weight: 500;
+            color: #34495e;
+            margin: 0;
+            line-height: 1.4;
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #5b6e88;
+            word-break: break-word;
+        }
+    }
+
+    &__flex {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 20px 20px 20px;
+
+        div {
+            flex: 1 1 calc(25% - 10px);
+            margin: 5px;
+            box-sizing: border-box;
+
+            @include sm {
+                flex: 1 1 calc(50% - 10px);
+            }
+
+            @include min {
+                flex: 1 1 calc(50% - 10px);
+            }
+
+            p {
+                color: #5b6e88;
+                font-size: 14px;
+                word-break: break-all;
+
+                &:first-child {
+                    font-weight: 500;
+                    color: #34495e;
+                    font-size: 16px;
+
+                    @include sm {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__table {
+        table {
+            box-shadow: unset !important;
+            border: unset !important;
+        }
+
+        th {
+            background-color: #6c757d !important;
+        }
+
+        td {
+            background-color: unset !important;
+            color: #5b6e88 !important;
+            font-size: 14px !important;
+
+            &:last-child {
+                text-align: right !important;
+
+                @include sm {
+                    text-align: left !important;
+                }
+
+                //                 @include lg {
+                //                     text-align: left !important;
+                //                 }
+            }
+        }
+    }
+}
+
+.details-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+
+    p {
+        margin-left: 20px;
+        color: #34495e;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.deposit_card {
+    padding: 15px;
+    transition: all 0.3s;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(18, 38, 63, 0.1) !important;
+    margin-bottom: 30px;
+
+    @include sm {
+        margin-bottom: unset;
+    }
+
+    @include md {
+        margin-bottom: unset;
+    }
+
+    &__single {
+        padding-left: 30px;
+        color: white;
+
+        h5 {
+            font-weight: 500;
+            font-size: 2rem;
+            line-height: 1.4;
+        }
+
+        p {
+            font-size: 0.875rem;
+            line-height: 1.7;
+        }
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+
+        @include sm {
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+
+        @include md {
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+
+        @include extralarge {
+            gap: 50px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.action_buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+
+    button {
+        font-size: 14px;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
