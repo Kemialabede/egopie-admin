@@ -1,0 +1,69 @@
+.indicator {
+    // width: 5px;
+    // height: 5px;
+    padding: 2px 15px;
+    width: fit-content;
+    display: flex;
+    border-radius: 25px;
+    text-transform: capitalize;
+
+    // align-items: center;
+    // justify-content: center;
+
+    &.approved {
+        background-color: rgba(40, 199, 111, 0.1);
+        border: 1px solid #28c76f;
+        color: #28c76f;
+    }
+
+
+    &.active {
+        background-color: rgba(40, 199, 111, 0.1);
+        border: 1px solid #28c76f;
+        color: #28c76f;
+    }
+
+    &.completed {
+        background-color: rgba(40, 199, 111, 0.1);
+        border: 1px solid #28c76f;
+        color: #28c76f;
+    }
+
+    &.delete {
+        background-color: #fbeae9;
+        border: 1px solid #cb1a14;
+        color: #cb1a14;
+    }
+
+    &.not_sent {
+        background: #cb1a14;
+    }
+
+    &.not_ready {
+        background: #cb1a14;
+    }
+}
+
+.statusIndicatorBG {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    padding: 2px 12px;
+    border-radius: 12px;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.4px;
+
+    &.approved {
+        background: #e7f6ec;
+    }
+
+    &.not_ready {
+        background: #fbeae9;
+    }
+
+    &.active {
+        background: #e5f1f9;
+    }
+}

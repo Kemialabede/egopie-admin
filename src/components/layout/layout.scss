@@ -1,0 +1,36 @@
+@import '../../styles/responsive.scss';
+
+.body-wrapper {
+    margin-left: 250px;
+    padding: 30px;
+    transition: all 0.5s cubic-bezier(0.4, -0.25, 0.25, 1.1);
+    position: relative;
+    min-height: 100vh;
+    top: 70px;
+    background: #f3f5f7;
+    margin-bottom: 100px;
+
+    &__full {
+        margin-left: 85px;
+        padding: 30px;
+        transition: all 0.5s cubic-bezier(0.4, -0.25, 0.25, 1.1);
+        overflow-x: hidden;
+        position: relative;
+        top: 70px;
+    }
+
+    @include sm {
+        margin-left: unset;
+        padding: 15px;
+    }
+
+    @include lg {
+        margin-left: unset;
+        padding: 15px;
+    }
+
+    @include xl {
+        margin-left: unset;
+        padding: 15px;
+    }
+}

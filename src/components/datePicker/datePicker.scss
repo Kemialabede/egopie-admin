@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.input-group-append {
+    background-color: #00a6f7;
+    padding: 10px 12px;
+    margin-left: -2px;
+    border-radius: 0px 5px 5px 0px;
+
+    button {
+        background-color: unset;
+        border: none;
+        color: #fff;
+    }
+}
