@@ -35,28 +35,28 @@ const AggregateCount = () => {
         icon={<i className='fa fa-users'></i>}
         count={8}
         caption='Total Users'
-        link='/my/admin/users'
+        link='/users'
       />
       <Card
         style={{ background: '#00BCD4' }}
         icon={<i className='fa fa-users'></i>}
         count={8}
-        caption='Total Verified Users'
-        link='/my/admin/users'
+        caption='Total Active Cards'
+        link='/users'
       />
       <Card
         style={{ background: '#FF9800' }}
         icon={<i className='fa fa-shopping-cart'></i>}
         count={1}
-        caption='Total Email Unverified Users'
-        link='/my/admin/users'
+        caption='Total Service Centers'
+        link='/users'
       />
       <Card
         style={{ background: '#E91E63' }}
         icon={<i className='fa fa-shopping-cart'></i>}
         count={0}
-        caption='Total SMS Unverified Users'
-        link='/my/admin/users'
+        caption='Total Revenue'
+        link='/users'
       />
     </div>
   )

@@ -15,10 +15,10 @@ const Dashboard = () => {
       </div>
       <AggregateCount />
       <div className='chart-container'>
-        <MonthlyStatementBarChart title='Monthly Deposit & Withdraw Report' />
+        <MonthlyStatementBarChart title='Monthly Deposit & Card Request' />
         <DepositCount />
       </div>
-      <MonthlyStatementBarChart title='Last 30 days Deposit History' />
+      <MonthlyStatementBarChart title='Transaction History' />
     </Layout>
   )
 }

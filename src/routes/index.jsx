@@ -19,19 +19,19 @@ const AppRouter = () => {
   return (
     <Routes>
       <Route path='/' element={<Login />} />
-      <Route path='/my/admin/dashboard' element={<DashboardPage />} />
-      <Route path='/my/admin/users' element={<Users />} />
-      <Route path='/my/admin/users/detail' element={<UserDetails />} />
-      <Route path='/my/admin/payment-gateway' element={<PaymentGateway />} />
-      <Route path='/my/admin/deposits' element={<Deposit />} />
-      <Route path='/my/admin/deposits/detail' element={<DepositDetails />} />
-      <Route path='/my/admin/tickets' element={<SupportTicket />} />
-      <Route path='/my/admin/referral' element={<ReferralManagement />} />
-      <Route path='/my/admin/card-management' element={<CardManagement />} />
-      <Route path='/my/admin/transactions' element={<Transaction />} />
-      <Route path='/my/admin/password/reset' element={<RecoverAccount />} />
-      <Route path='/my/admin/profile' element={<Profile />} />
-      <Route path='/my/admin/notifications' element={<Notifications />} />
+      <Route path='/dashboard' element={<DashboardPage />} />
+      <Route path='/users' element={<Users />} />
+      <Route path='users/detail' element={<UserDetails />} />
+      <Route path='payment-gateway' element={<PaymentGateway />} />
+      <Route path='/deposits' element={<Deposit />} />
+      <Route path='/deposits/detail' element={<DepositDetails />} />
+      <Route path='/tickets' element={<SupportTicket />} />
+      <Route path='/referral' element={<ReferralManagement />} />
+      <Route path='/card-management' element={<CardManagement />} />
+      <Route path='/transactions' element={<Transaction />} />
+      <Route path='/password/reset' element={<RecoverAccount />} />
+      <Route path='/profile' element={<Profile />} />
+      <Route path='/notifications' element={<Notifications />} />
     </Routes>
   )
 }
