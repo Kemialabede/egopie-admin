@@ -98,7 +98,7 @@ const Users = () => {
               </td>
               <td>
                 <div
-                  onClick={() => navigate('/my/admin/users/detail')}
+                  onClick={() => navigate('/users/detail')}
                   style={{ cursor: 'pointer' }}
                 >
                   <SlScreenDesktop

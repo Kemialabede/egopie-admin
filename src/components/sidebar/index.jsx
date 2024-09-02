@@ -14,13 +14,13 @@ const Sidebar = ({ isOpen }) => {
         <button className='res-sidebar-close-btn'></button>
         <div>
           <div className='sidebar__logo'>
-            <a href='/my/admin/dashboard' className='sidebar__main-logo'>
+            <a href='/dashboard' className='sidebar__main-logo'>
               <img
                 src='https://egopielaundry.com/my/assets/images/logoIcon/logo.png'
                 alt='image'
               />
             </a>
-            <a href='/my/admin/dashboard' className='sidebar__logo-shape'>
+            <a href='/dashboard' className='sidebar__logo-shape'>
               <img
                 src='https://egopielaundry.com/my/assets/images/logoIcon/favicon.png'
                 alt='image'

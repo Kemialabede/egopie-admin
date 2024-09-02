@@ -126,14 +126,14 @@ const Header = () => {
                   </span>
                   <Dropdown icon={<IoIosArrowDropdown />}>
                     <Menu.Item className='menu-item'>
-                      <div onClick={() => navigate('/my/admin/profile')}>
+                      <div onClick={() => navigate('/profile')}>
                         <CgProfile />
                         <p>Profile</p>
                       </div>
                     </Menu.Item>
                     <Menu.Divider />
                     <Menu.Item className='menu-item'>
-                      <div onClick={() => navigate('/my/admin/profile')}>
+                      <div onClick={() => navigate('/profile')}>
                         <LuKeyRound />
                         <p>Password</p>
                       </div>

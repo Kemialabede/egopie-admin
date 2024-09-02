@@ -107,7 +107,7 @@ const Deposit = () => {
             </td>
             <td>
               <div
-                onClick={() => navigate('/my/admin/deposits/detail')}
+                onClick={() => navigate('/deposits/detail')}
                 style={{ cursor: 'pointer' }}
               >
                 <SlScreenDesktop
