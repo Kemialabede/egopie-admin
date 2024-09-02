@@ -4,5 +4,5 @@ import EnvironmentPlugin from 'vite-plugin-environment'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), EnvironmentPlugin(['REACT_APP_WASHINN_ADMIN_API_URL'])],
+  plugins: [react()],
 })
