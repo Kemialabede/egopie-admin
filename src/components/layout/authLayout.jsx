@@ -32,7 +32,7 @@ const AuthLayout = ({ children, caption, buttonText, login }) => {
             />
             <div>{children}</div>
             <div className='form-wrapper__forgotPassword'>
-              <a href={login ? '/my/admin/password/reset' : '/'}>
+              <a href={login ? '/password/reset' : '/'}>
                 <RiLockPasswordLine />
                 {login ? <p>Forgot password?</p> : <p>Login here?</p>}
               </a>
